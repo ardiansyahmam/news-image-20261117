@@ -8,17 +8,17 @@ Entry for the [make.fun bounty "Sum up 17 November's world news in one image"](h
 
 `main.py` (Python 3.13, standard library only, no network) copies the
 bundled front-page image `entry.png` to the output directory. The image is a
-newspaper front page — "THE WORLD IN ONE IMAGE", Tuesday, 17 November 2026 —
-summing up the day's world news in six stories plus an "ALSO" strip:
+vertical newspaper front page — "THE WORLD IN ONE IMAGE", Tuesday,
+17 November 2026 — summing up the day's world news in 23 stories across
+6 continents: 3 illustrated heroes (Strait of Hormuz, Kerch Bridge, Gaza),
+then six colour-coded continent bands (Africa 3, Asia 6, Europe 4,
+North America 4, South America 2, Oceania 1), closed by a "THE DAY IN FOUR
+FIGURES" strip (1,441 drones, $120bn COP31 finance, 1.7m displaced in Gaza,
+11,000+ Ebola cases). Every story happened or was first reported on Tuesday
+17 November 2026; contested claims are marked as claims. Sources: Reuters,
+AP, AFP, BBC, Al Jazeera, UN.
 
-1. **Strait of Hormuz** — tanker ablaze as the US–Iran war escalates; Iran says a fourth tanker caught fire after a sea-mine strike and claims it seized a US drone; Bahrain says it intercepted a drone headed for a US base
-2. **Kerch Bridge** — Ukraine strike damages the bridge; Ukraine hit the bridge, damaging a road section, and Russia struck two bridges in Kyiv
-3. **Gaza** — Gaza faces a deadly winter, UN warns of hypothermia deaths; 1.7m displaced face cold and hunger
-4. **Summit** — Xi, Trump & Putin to meet Thursday in Shenzhen
-5. **Chips** — US tightens the AI chip curbs on China
-6. **Japan** — jets scrambled over suspected Russian planes; Tokyo protests after two suspected Russian planes violated its airspace near Fukuoka
-
-The image (1024×1024 PNG) was drawn with Python/PIL from flat geometric
+The image (768×1024 PNG) was drawn with Python/PIL from flat geometric
 shapes; the program is deterministic — every run writes the exact same bytes.
 
 ## Run
