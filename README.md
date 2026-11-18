@@ -11,12 +11,12 @@ bundled front-page image `entry.png` to the output directory. The image is a
 newspaper front page — "THE WORLD IN ONE IMAGE", Tuesday, 17 November 2026 —
 summing up the day's world news in six stories plus an "ALSO" strip:
 
-1. **Strait of Hormuz** — fourth tanker ablaze as the US–Iran war escalates
-2. **Kerch Bridge** — Ukraine strike collapses part of the bridge
-3. **Gaza** — the West urges Israel to open Gaza crossings
+1. **Strait of Hormuz** — tanker ablaze as the US–Iran war escalates; Iran says a fourth tanker caught fire after a sea-mine strike and claims it seized a US drone; Bahrain says it intercepted a drone headed for a US base
+2. **Kerch Bridge** — Ukraine strike damages the bridge; Ukraine hit the bridge, damaging a road section, and Russia struck two bridges in Kyiv
+3. **Gaza** — Gaza faces a deadly winter, UN warns of hypothermia deaths; 1.7m displaced face cold and hunger
 4. **Summit** — Xi, Trump & Putin to meet Thursday in Shenzhen
-5. **Chips** — US tightens the AI chip export ban on China
-6. **Japan** — jets scrambled as Russian planes enter its airspace
+5. **Chips** — US tightens the AI chip curbs on China
+6. **Japan** — jets scrambled over suspected Russian planes; Tokyo protests after two suspected Russian planes violated its airspace near Fukuoka
 
 The image (1024×1024 PNG) was drawn with Python/PIL from flat geometric
 shapes; the program is deterministic — every run writes the exact same bytes.
